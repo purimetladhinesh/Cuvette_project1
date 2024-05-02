@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+  }
+ 
+  .maincontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFCD9E;
+    word-wrap: normal;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #child1 {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+  }
+ 
+  #inputfield {
+    height: 5vh;
+    width: 15vw;
+    border: 0.2vh;
+    border-color: black;
+    text-align: left;
+    padding-left:1vw;
+    color:  #888888;
+    ;
+   }
+  #child1 >h1 {
+    font-weight: 700;
+    font-size: 2.5vw;
+   }
+   #child1 table tr:nth-child(2) td{
+    font-weight: 500;
+    font-size: 2.2vw;
+ }
+ #child1 table tr:nth-child(3) td{
+    font-weight: 800;
+    font-size: 1.3vw;
+ }
+ #child1 table tr:nth-child(4) td{
+    font-weight: 800;
+    font-size: 1.3vw;
+ }
+ #child1 table tr:nth-child(5) td{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #FFFFFF;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+  #child1#child11 {
+    height: 70vh;
+    width: 60vw;
+  }
+  #child1#child12 {
+    height: 70vh;
+    width: 40vw;
+  }
+  
+  #child2 {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  #child21 {
+    height: 30vh;
+    width: 50vw;
+  }
+  #child21 {
+    height: 30vh;
+    width: 50vw;
+  }
+ #tbchild21{
+    height: 20vh;
+    width: 50vw;
+    padding-left: 13vw;
+    padding-top: 4vw;
+    
+ }
+ #child21 table tr:nth-child(1n) td{
+    padding: 0; 
+ }
+ /* #tbchild21 >td{
+    
+ } */
+ #tbchild22{
+    height: 20vh;
+    width: 50vw;
+    padding-left:20vw;
+    padding-top: 2vw; 
+ }
+ #child22 table tr:nth-child(1) td{
+    padding-left:6vw; 
+ }
+ #child22 table tr:nth-child(3) td{
+    padding-left:6vw; 
+ }
+ #child22 table tr:nth-child(5) td{
+    padding-left:3.5vw; 
+ }
+ /* tbchild22 >td{
+    padding-left: 20vw;
+ } */
+  
+  .Registerbutton {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    border-radius:5px;
+  }
+  #image1{
+    height: 60vh;
+    width: 60vh;
+  }
